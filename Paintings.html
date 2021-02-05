@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Emilys Candy' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" tyle="text/css" href="style.css">
+<style>
+body {
+  background: #555;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 28px;
+}
+
+ .hero-image {
+  background-image: url("6.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fdedec;
+}
+
+.hero-text button {
+width:100px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #023d6d;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 70px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #555;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:white;
+}
+
+.topnav a.active {
+  background-color: #365472;
+  color: black;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #34495e;
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4a86b7;
+    min-width: 75px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+span{
+        margin-right: 15px;
+      }
+
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+a {
+text-decoration:none;
+}
+
+body {
+    font-family: 'Emilys Candy';font-size: 30px;
+}
+</style>
+</head>
+<body onscroll="myFunction()">
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-color:#800080">Creativity</h1>
+    <p>Web Designing</p>
+    <button class="btn btn-success" onclick=" window.open('http://accounts.google.com','_blank')"> Login </button>                               
+  </div>
+</div>
+<div class="topnav">
+<div id="navbar">
+<div class="container">
+ <a class="active" href="Index.html"><span class="fa fa-home"></span>Home</a>
+ <div class="dropdown">
+    <button class="dropbtn"><span class="fa fa-plus"></span>Topics</button>
+    <div class="dropdown-content">
+      <a href="Images.html"><span class="fa fa-image"></span>Images</a>
+      <a href="Videos.html"><span class="fa fa-video-camera"></span>Videos</a>
+      <a href="Graphics.html"><span class="fa fa-laptop"></span>Graphics</a>
+      <a href="Paintings.html"><span class="fa fa-paint-brush"></span>Paintings</a>
+      <a href="Web Design- A beginners Guide.pdf" download class=" btn btn-lg btn-outline">
+<i class="fa fa-file-pdf-o"></i> Download PDF <span class="fa fa-download"></span></a>
+</a>
+    </div>
+  </div> 
+ <a href="Contact.html"><span class="fa fa-phone-square"></span>Contact</a>
+ 
+  <div class="search-container">
+  <form method="get" action="http://www.google.com/search">
+ <input type="text" name="q" size="31" maxlength="255" value="" />
+ <input type="submit" value="Google Search" />
+ </form>
+  </div>
+</div>
+</div>
+</div>
+<div class="content">
+<font color="lightomega"><h3>Paintings</h3></font>
+  <div id="slider">
+<figure>
+<img src="pic1.jpg">
+<img src="pic2.jpg">
+<img src="pic3.jpg">
+<img src="pic4.jpg">
+<img src="pic5.jpg">
+</figure>
+</div>
+<p>Paint is any <i><font color="sky blue">liquid, liquefiable,</font></i> or <i><font color="sky blue">mastic composition</font></i> that, after application to a substrate in a thin layer, converts to a solid film. It is most commonly used to <i><font color="sky blue">protect, color</font></i>, or provide <i><font color="sky blue">texture</font></i> to objects. Paint can be made or purchased in many colors_and in many different types, such as <i><font color="indigo">watercolor, synthetic,</font></i> etc. Paint is typically <i>stored, sold,</i> and applied as a <i><font color="green">liquid</font></i>, but most types dry into a <i><font color="green">solid</font></i>.</p>
+
+<p>Since the time of the <i><font color="orange">Renaissance, siccative (drying) oil paints, primarily linseed oil,</font></i> have been the most commonly used kind of paints in fine art applications; oil paint is still common today. However, in the <i><font color="ff1493">20th century</font></i>, water-based paints, including watercolors and acrylic paints, became very popular with the development of acrylic and other latex paints. <i><font color="indigo">Milk paints</font></i> <i><font color="green">(also called casein)</font></i>, where the medium is derived from the natural emulsion that is milk, were popular in the <i><font color="ff1493">19th century</font></i> and are still available today. <i><font color="indigo">Egg tempera</font></i> is still in use as well, as are encaustic wax-based paints. Gouache is a variety of opaque watercolor that was also used in the Middle Ages and Renaissance for manuscript illuminations. <i><font color="indigo">Gouache</font></i>, also known as <i><font color="orange">'designer color'</font></i> or <i><font color="orange">'body color'</font></i> is commercially available today.</p>
+</div>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.scrollY >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
