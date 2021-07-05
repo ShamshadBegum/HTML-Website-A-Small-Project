@@ -6,7 +6,6 @@ Responsibilities -
     Creating and testing applications for webpage.
     Presenting design specifications.
     Work with graphics and other designings.
-
 I acknowledged some experience when I was creating page features like animations, pictures
 and navigation bars, design specifications.
 Skills used - HTML, CSS, JavaScript, and Editor.
